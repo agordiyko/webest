@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<main class="container">
+    <section>
+        <header class="header">
+            <h2>Каталог</h2>
+
+            <div class="cart-count"></div>
+        </header>
+
+        <div class="catalog">
+            <article id="product-1" class="product-card">
+                <a href="#" class="product-card__link product-card__cover">
+                    <img src="https://via.placeholder.com/330x200" alt="Изображение товара" class="product-card__image">
+                </a>
+                <h4 class="product-card__title">Название товара 1</h4>
+                <div class="counter">
+                    <button class="counter__decrease">-</button>
+                    <label>
+                        <input type="text" class="counter__input" value="1">
+                    </label>
+                    <button class="counter__increase">+</button>
+                </div>
+                <p class="product-card__description" hidden>
+                    Легкий высококачественный портативный долговечный многофункциональный инновационный компактный надежный экономичный интуитивный
+                </p>
+                <button class="product-card__add-to-cart js-open-modal" type="button" data-modal="1">Просмотр товара</button>
+            </article>
+
+            <article id="product-2" class="product-card">
+                <a href="#" class="product-card__link product-card__cover">
+                    <img src="https://via.placeholder.com/330x200" alt="Изображение товара" class="product-card__image">
+                </a>
+                <h4 class="product-card__title">Название товара 2</h4>
+                <div class="counter">
+                    <button class="counter__decrease">-</button>
+                    <label>
+                        <input type="text" class="counter__input" value="1">
+                    </label>
+                    <button class="counter__increase">+</button>
+                </div>
+                <p class="product-card__description" hidden>
+                    Легкий высококачественный портативный долговечный многофункциональный инновационный компактный надежный экономичный интуитивный
+                </p>
+                <button class="product-card__add-to-cart js-open-modal" type="button" data-modal="1">Просмотр товара</button>
+            </article>
+
+            <article id="product-3" class="product-card">
+                <a href="#" class="product-card__link product-card__cover">
+                    <img src="https://via.placeholder.com/330x200" alt="Изображение товара" class="product-card__image">
+                </a>
+                <h4 class="product-card__title">Название товара 3</h4>
+                <div class="counter">
+                    <button class="counter__decrease">-</button>
+                    <label>
+                        <input type="text" class="counter__input" value="1">
+                    </label>
+                    <button class="counter__increase">+</button>
+                </div>
+                <p class="product-card__description" hidden>
+                    Легкий высококачественный портативный долговечный многофункциональный инновационный компактный надежный экономичный интуитивный
+                </p>
+                <button class="product-card__add-to-cart js-open-modal" type="button" data-modal="1">Просмотр товара</button>
+            </article>
+
+            <article id="product-4" class="product-card">
+                <a href="#" class="product-card__link product-card__cover">
+                    <img src="https://via.placeholder.com/330x200" alt="Изображение товара" class="product-card__image">
+                </a>
+                <h4 class="product-card__title">Название товара 4</h4>
+                <div class="counter">
+                    <button class="counter__decrease">-</button>
+                    <label>
+                        <input type="text" class="counter__input" value="1">
+                    </label>
+                    <button class="counter__increase">+</button>
+                </div>
+                <p class="product-card__description" hidden>
+                    Легкий высококачественный портативный долговечный многофункциональный инновационный компактный надежный экономичный интуитивный
+                </p>
+                <button class="product-card__add-to-cart js-open-modal" type="button" data-modal="1">Просмотр товара</button>
+            </article>
+
+            <article id="product-5" class="product-card">
+                <a href="#" class="product-card__link product-card__cover">
+                    <img src="https://via.placeholder.com/330x200" alt="Изображение товара" class="product-card__image">
+                </a>
+                <h4 class="product-card__title">Название товара 5</h4>
+                <div class="counter">
+                    <button class="counter__decrease">-</button>
+                    <label>
+                        <input type="text" class="counter__input" value="1">
+                    </label>
+                    <button class="counter__increase">+</button>
+                </div>
+                <p class="product-card__description" hidden>
+                    Легкий высококачественный портативный долговечный многофункциональный инновационный компактный надежный экономичный интуитивный
+                </p>
+                <button class="product-card__add-to-cart js-open-modal" type="button" data-modal="1">Просмотр товара</button>
+            </article>
+
+            <article id="product-6" class="product-card">
+                <a href="#" class="product-card__link product-card__cover">
+                    <img src="https://via.placeholder.com/330x200" alt="Изображение товара" class="product-card__image">
+                </a>
+                <h4 class="product-card__title">Название товара 6</h4>
+                <div class="counter">
+                    <button class="counter__decrease">-</button>
+                    <label>
+                        <input type="text" class="counter__input" value="1">
+                    </label>
+                    <button class="counter__increase">+</button>
+                </div>
+                <p class="product-card__description" hidden>
+                    Легкий высококачественный портативный долговечный многофункциональный инновационный компактный надежный экономичный интуитивный
+                </p>
+                <button class="product-card__add-to-cart js-open-modal" type="button" data-modal="1">Просмотр товара</button>
+            </article>
+        </div>
+    </section>
+</main>
+<div class="modal" data-modal="1">
+    <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+    <div class="modal__content">
+
+    </div>
+    <button class="product-card__add-to-basket" type="button">Добавить в корзину</button>
+</div>
+<div class="overlay js-overlay-modal"></div>
+<script defer src="app.js"></script>
+</body>
+</html>
