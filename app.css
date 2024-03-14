@@ -106,6 +106,7 @@ body {
     padding: .8rem;
     border-radius: .8rem;
     cursor: pointer;
+    outline: none;
 }
 .product-card__add-to-basket {
     margin-top: 16px;
